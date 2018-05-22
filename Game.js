@@ -1,4 +1,4 @@
-var theButton=function(){
+var theButton = function(){
 fill(255, 250, 0);
   rect(900,600,200,100);
   fill(0,0,0);
@@ -6,7 +6,7 @@ fill(255, 250, 0);
   text("Start!",950,650);
 };
 
-var PLAYER_MOVE_SPEED = 2;
+var PLAYER_MOVE_SPEED = 1.5;
 
 var xPos = 245;
 var yPos = 200;
