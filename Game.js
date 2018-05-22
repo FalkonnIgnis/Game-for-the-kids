@@ -6,7 +6,7 @@ fill(255, 250, 0);
   text("Start!",950,650);
 };
 
-var PLAYER_MOVE_SPEED = 1.5;
+var PLAYER_MOVE_SPEED = 1;
 
 var xPos = 245;
 var yPos = 200;
@@ -373,6 +373,12 @@ text("-Q=Stop",10,180,5);
   }
   if(keyCode == 81){
     stopMovement();
+  }
+  if(xPos > 220 && xPos < 220 + 2
+  && yPos > 220 && yPos < 220+400){
+    xPos = 240;
+    yPos = 200;
+    
   }
       }
   noStroke();
