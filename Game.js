@@ -6,7 +6,7 @@ fill(255, 250, 0);
   text("Start!",950,650);
 };
 
-var PLAYER_MOVE_SPEED = 1;
+var PLAYER_MOVE_SPEED = 2;
 
 var xPos = 245;
 var yPos = 200;
@@ -74,8 +74,7 @@ mouseClicked = function(){
   rect(345,500,1,-78)
   rect(420,530,-150,1);
   rect(346,500,-50,1);
-  rect(220,515,50,1);
-  rect(250,515,50,1);
+  rect(220,515,80,1);
   fill(0,0,0);
   text("-W=Up",10,20,5);
 text("-S=Down",10,100,5);
@@ -331,6 +330,7 @@ text("-Q=Stop",10,180,5);
   rect(366,240,40,1);
   rect(390,300,30,1);
   rect(390,300,1,30);
+  //
   rect(391,330,-21,1);
   rect(370,330,1,-50);
   rect(370,280,35,1);
@@ -374,12 +374,113 @@ text("-Q=Stop",10,180,5);
   if(keyCode == 81){
     stopMovement();
   }
-  if(xPos > 220 && xPos < 220 + 2
+  if(xPos > 220 && xPos < 220 + 3
   && yPos > 220 && yPos < 220+400){
     xPos = 240;
     yPos = 200;
     
   }
+  if(xPos > 220 && xPos < 220 +350
+  && yPos > 620 && yPos < 620 + 3){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 595 && xPos < 595 + 25
+  && yPos > 620 && yPos < 620 + 3){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 620 && xPos < 620 + 3
+  && yPos > 220 && yPos < 220 + 400){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 255 && xPos < 255 + 365
+  && yPos > 220 && yPos < 220 + 3){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 220 && xPos < 220 + 10
+  && yPos > 220 && yPos < 220 + 3){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 420 && xPos < 420 + 3
+  && yPos > 220 && yPos < 220 + 375){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 220 && xPos < 220 + 165
+  && yPos > 420 && yPos < 420 + 3){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 410 && xPos < 410 + 10
+  && yPos > 420 && yPos < 420 + 3){
+    xPos = 240;
+    yPos = 200;
+    
+  }if(xPos > 320 && xPos < 320 + 3
+  && yPos > 220 && yPos < 220 + 80){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 320 && xPos < 320 + 3
+  && yPos > 325 && yPos < 325 + 95){
+    xPos = 240;
+    yPos = 200;
+    
+  }if(xPos > 320 && xPos < 320 + 20
+  && yPos > 260 && yPos < 260 + 3){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 365 && xPos < 365 + 55
+  && yPos > 260 && yPos < 260 + 3){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 365 && xPos < 365 + 3
+  && yPos > 240 && yPos < 260){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 366 && xPos < 366 + 40
+  && yPos > 240 && yPos < 240 + 3){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 390 && xPos < 390 + 30
+  && yPos > 300 && yPos < 300 + 3){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 390 && xPos < 390 + 3
+  && yPos > 300 && yPos < 300 + 30){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 370 && xPos < 391
+  && yPos > 330 && yPos < 330 + 3){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  
       }
   noStroke();
    fill(255, 0, 239);
