@@ -368,50 +368,50 @@ text("-Q=Stop",10,180,5);
 
 //moving the character
       movePlayerLeft();
-  }
+    {
   if(keyCode === 81){
     stopMovement();
-  }
+  };
   if(xPos > 220 && xPos < 220 + 3&& yPos > 220 && yPos < 220+400)
    { xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 220 && xPos < 220 +350 && yPos > 620 && yPos < 620 + 3){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 595 && xPos < 595 + 25 && yPos > 620 && yPos < 620 + 3){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 620 && xPos < 620 + 3 && yPos > 220 && yPos < 220 + 400){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 255 && xPos < 255 + 365&& yPos > 220 && yPos < 220 + 3){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 220 && xPos < 220 + 10 && yPos > 220 && yPos < 220 + 3){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 420 && xPos < 420 + 3&& yPos > 220 && yPos < 220 + 375){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 220 && xPos < 220 + 165&& yPos > 420 && yPos < 420 + 3){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 410 && xPos < 410 + 10&& yPos > 420 && yPos < 420 + 3){
     xPos = 240;
     yPos = 200;
@@ -420,7 +420,7 @@ text("-Q=Stop",10,180,5);
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 320 && xPos < 320 + 3&& yPos > 325 && yPos < 325 + 95){
     xPos = 240;
     yPos = 200;
@@ -429,43 +429,43 @@ text("-Q=Stop",10,180,5);
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 365 && xPos < 365 + 55 && yPos > 260 && yPos < 260 + 3){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 365 && xPos < 365 + 3&& yPos > 240 && yPos < 260){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 366 && xPos < 366 + 40&& yPos > 240 && yPos < 240 + 3){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 390 && xPos < 390 + 30&& yPos > 300 && yPos < 300 + 3){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 390 && xPos < 390 + 3&& yPos > 300 && yPos < 300 + 30){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   if(xPos > 370 && xPos < 391&& yPos > 330 && yPos < 330 + 3){
     xPos = 240;
     yPos = 200;
     
-  }
+  };
   
-      }
+      };
   noStroke();
    fill(255, 0, 239);
 ellipse(xPos,yPos,10,10);
 
 
 
-};
+
