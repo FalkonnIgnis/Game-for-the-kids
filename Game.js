@@ -81,6 +81,7 @@ text("-S=Down",10,100,5);
 text("-D=Right",10,140,5);
 text("-A=Left",10,60,5);
 text("-Q=Stop",10,180,5);
+text("Hold-Z-and-use-controls-to-move-on-github",10,850,2);
   //character temporary replacement
  
   }
@@ -167,7 +168,7 @@ text("-S=Down",10,100,5);
 text("-D=Right",10,140,5);
 text("-A=Left",10,60,5);
 text("-Q=Stop",10,180,5);
-
+text("Hold-Z-and-use-controls-to-move-on-github",10,850,2);
 //moving the character
       movePlayerDown();
      
@@ -233,7 +234,7 @@ text("-S=Down",10,100,5);
 text("-D=Right",10,140,5);
 text("-A=Left",10,60,5);
 text("-Q=Stop",10,180,5);
- 
+ text("Hold-Z-and-use-controls-to-move-on-github",10,850,2);
 
 //moving the character
       movePlayerRight();
@@ -299,7 +300,7 @@ text("-S=Down",10,100,5);
 text("-D=Right",10,140,5);
 text("-A=Left",10,60,5);
 text("-Q=Stop",10,180,5);
- 
+ text("Hold-Z-and-use-controls-to-move-on-github",10,850,2);
 
 //moving the character
       movePlayerUp();
@@ -330,7 +331,6 @@ text("-Q=Stop",10,180,5);
   rect(366,240,40,1);
   rect(390,300,30,1);
   rect(390,300,1,30);
-  //
   rect(391,330,-21,1);
   rect(370,330,1,-50);
   rect(370,280,35,1);
@@ -366,8 +366,7 @@ text("-S=Down",10,100,5);
 text("-D=Right",10,140,5);
 text("-A=Left",10,60,5);
 text("-Q=Stop",10,180,5);
- 
-
+text("Hold-Z-and-use-controls-to-move-on-github",10,850,2);
 //moving the character
       movePlayerLeft();
   }
