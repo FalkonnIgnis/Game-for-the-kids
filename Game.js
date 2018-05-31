@@ -171,7 +171,7 @@ text("-Q=Stop",10,180,5);
 text("Hold-Z-and-use-controls-to-move-on-github",10,850,2);
 //moving the character
       movePlayerDown();
-     
+      
   }
   if (keyCode == 68){
    background(0,206,255);
@@ -373,276 +373,230 @@ text("Hold-Z-and-use-controls-to-move-on-github",10,850,2);
   if(keyCode == 81){
     stopMovement();
   }
-  if(xPos > 220 && xPos < 220 + 3
-  && yPos > 220 && yPos < 220+400){
+  if(xPos > 220 && xPos < 220 + 3&& yPos > 220 && yPos < 220+400){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 220 && xPos < 220 +350
-  && yPos > 620 && yPos < 620 + 3){
+  if(xPos > 220 && xPos < 220 +350&& yPos > 620 && yPos < 620 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 595 && xPos < 595 + 25
-  && yPos > 620 && yPos < 620 + 3){
+  if(xPos > 595 && xPos < 595 + 25&& yPos > 620 && yPos < 620 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 620 && xPos < 620 + 3
-  && yPos > 220 && yPos < 220 + 400){
+  if(xPos > 620 && xPos < 620 + 3&& yPos > 220 && yPos < 220 + 400){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 255 && xPos < 255 + 365
-  && yPos > 220 && yPos < 220 + 3){
+  if(xPos > 255 && xPos < 255 + 365&& yPos > 220 && yPos < 220 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 220 && xPos < 220 + 10
-  && yPos > 220 && yPos < 220 + 3){
+  if(xPos > 220 && xPos < 220 + 10&& yPos > 220 && yPos < 220 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 420 && xPos < 420 + 3
-  && yPos > 220 && yPos < 220 + 375){
+  if(xPos > 420 && xPos < 420 + 3&& yPos > 220 && yPos < 220 + 375){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 220 && xPos < 220 + 165
-  && yPos > 420 && yPos < 420 + 3){
+  if(xPos > 220 && xPos < 220 + 165&& yPos > 420 && yPos < 420 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 410 && xPos < 410 + 10
-  && yPos > 420 && yPos < 420 + 3){
+  if(xPos > 410 && xPos < 410 + 10&& yPos > 420 && yPos < 420 + 3){
     xPos = 240;
     yPos = 200;
     
-  }if(xPos > 320 && xPos < 320 + 3
-  && yPos > 220 && yPos < 220 + 80){
-    xPos = 240;
-    yPos = 200;
-    
-  }
-  if(xPos > 320 && xPos < 320 + 3
-  && yPos > 325 && yPos < 325 + 95){
-    xPos = 240;
-    yPos = 200;
-    
-  }if(xPos > 320 && xPos < 320 + 20
-  && yPos > 260 && yPos < 260 + 3){
+  }if(xPos > 320 && xPos < 320 + 3&& yPos > 220 && yPos < 220 + 80){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 365 && xPos < 365 + 55
-  && yPos > 260 && yPos < 260 + 3){
+  if(xPos > 320 && xPos < 320 + 3&& yPos > 325 && yPos < 325 + 95){
+    xPos = 240;
+    yPos = 200;
+    
+  }if(xPos > 320 && xPos < 320 + 20&& yPos > 260 && yPos < 260 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 365 && xPos < 365 + 3
-  && yPos > 240 && yPos < 260){
+  if(xPos > 365 && xPos < 365 + 55&& yPos > 260 && yPos < 260 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 366 && xPos < 366 + 40
-  && yPos > 240 && yPos < 240 + 3){
+  if(xPos > 365 && xPos < 365 + 3&& yPos > 240 && yPos < 260){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 390 && xPos < 390 + 30
-  && yPos > 300 && yPos < 300 + 3){
+  if(xPos > 366 && xPos < 366 + 40&& yPos > 240 && yPos < 240 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 390 && xPos < 390 + 3
-  && yPos > 300 && yPos < 300 + 30){
+  if(xPos > 390 && xPos < 390 + 30&& yPos > 300 && yPos < 300 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 370 && xPos < 391
-  && yPos > 330 && yPos < 330 + 3){
+  if(xPos > 390 && xPos < 390 + 3&& yPos > 300 && yPos < 300 + 30){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 370 && xPos < 373
-  && yPos > 280 && yPos < 330){
+  if(xPos > 370 && xPos < 391&& yPos > 330 && yPos < 330 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 370 && xPos < 405
-  && yPos > 280 && yPos < 280 + 3){
+  if(xPos > 370 && xPos < 373&& yPos > 280 && yPos < 330){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 340 && xPos < 343
-  && yPos > 220 && yPos < 220 + 25){
+  if(xPos > 370 && xPos < 405&& yPos > 280 && yPos < 280 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 320 && xPos < 340
-  && yPos > 325 && yPos < 325 + 3){
+  if(xPos > 340 && xPos < 343&& yPos > 220 && yPos < 220 + 25){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 220 && xPos < 260
-  && yPos > 325 && yPos < 325 + 3){
+  if(xPos > 320 && xPos < 340&& yPos > 325 && yPos < 325 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 260 && xPos < 260 + 3
-  && yPos > 325 && yPos < 365 + 3){
+  if(xPos > 220 && xPos < 260&& yPos > 325 && yPos < 325 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 260 && xPos < 265
-  && yPos > 365 && yPos < 365 + 3){
+  if(xPos > 260 && xPos < 260 + 3&& yPos > 325 && yPos < 365 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 290 && xPos < 320
-  && yPos > 365 && yPos < 365 + 3){
+  if(xPos > 260 && xPos < 265 && yPos > 365 && yPos < 365 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 220 && xPos < 290
-  && yPos > 385 && yPos < 385 + 3){
+  if(xPos > 290 && xPos < 320&& yPos > 365 && yPos < 365 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 290 && xPos < 290+3
-  && yPos > 365 && yPos < 365 + 5){
+  if(xPos > 220 && xPos < 290 && yPos > 385 && yPos < 385 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 315 && xPos < 315 + 5
-  && yPos > 385 && yPos < 330 + 3){
+  if(xPos > 290 && xPos < 290+3&& yPos > 365 && yPos < 365 + 5){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 270 && xPos < 270 + 3
-  && yPos > 405 && yPos < 405 + 15){
+  if(xPos > 315 && xPos < 315 + 5&& yPos > 385 && yPos < 330 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 270 && xPos < 300
-  && yPos > 405 && yPos < 405 + 3){
+  if(xPos > 270 && xPos < 270 + 3&& yPos > 405 && yPos < 405 + 15){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 270 && xPos < 320
-  && yPos > 250 && yPos < 250 + 3){
+  if(xPos > 270 && xPos < 300&& yPos > 405 && yPos < 405 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 240 && xPos < 249
-  && yPos > 420 && yPos < 420 + 3){
+  if(xPos > 270 && xPos < 320&& yPos > 250 && yPos < 250 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 250 && xPos < 320
-  && yPos > 280 && yPos < 280 + 3){
+  if(xPos > 240 && xPos < 249&& yPos > 420 && yPos < 420 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 220 && xPos < 225
-  && yPos > 280 && yPos < 280 + 3){
+  if(xPos > 250 && xPos < 320&& yPos > 280 && yPos < 280 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 250 && xPos < 250 + 3
-  && yPos > 280 && yPos < 280 + 15){
+  if(xPos > 220 && xPos < 225&& yPos > 280 && yPos < 280 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 220 && xPos < 251
-  && yPos > 315 && yPos < 315 + 3){
+  if(xPos > 250 && xPos < 250 + 3&& yPos > 280 && yPos < 280 + 15){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 320 && xPos < 351
-  && yPos > 325 && yPos < 325 + 3){
+  if(xPos > 220 && xPos < 251&& yPos > 315 && yPos < 315 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 355 && xPos < 420
-  && yPos > 350 && yPos < 350 + 3){
+  if(xPos > 320 && xPos < 351&& yPos > 325 && yPos < 325 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 330 && xPos < 330 + 3
-  && yPos > 325 && yPos < 325 + 26){
+  if(xPos > 355 && xPos < 420&& yPos > 350 && yPos < 350 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 370 && xPos < 420
-  && yPos > 450 && yPos < 450 + 3){
+  if(xPos > 330 && xPos < 330 + 3&& yPos > 325 && yPos < 325 + 26){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 345 && xPos < 345 + 3
-  && yPos > 522 && yPos < 500){
+  if(xPos > 370 && xPos < 420&& yPos > 450 && yPos < 450 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 270 && xPos < 420
-  && yPos > 530 && yPos < 530 + 3){
+  if(xPos > 345 && xPos < 345 + 3&& yPos > 522 && yPos < 500){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 296 && xPos < 346
-  && yPos > 500 && yPos < 500 + 3){
+  if(xPos > 270 && xPos < 420&& yPos > 530 && yPos < 530 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 220 && xPos < 270
-  && yPos > 515 && yPos < 515 + 3){
+  if(xPos > 296 && xPos < 346&& yPos > 500 && yPos < 500 + 3){
     xPos = 240;
     yPos = 200;
     
   }
-  if(xPos > 250 && xPos < 300
-  && yPos > 525 && yPos < 515 + 3){
+  if(xPos > 220 && xPos < 270&& yPos > 515 && yPos < 515 + 3){
+    xPos = 240;
+    yPos = 200;
+    
+  }
+  if(xPos > 250 && xPos < 300&& yPos > 525 && yPos < 515 + 3){
     xPos = 240;
     yPos = 200;
     
