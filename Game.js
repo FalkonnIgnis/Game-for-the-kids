@@ -338,10 +338,13 @@ var currentScene = 1
 var xPos = 245;
 var yPos = 200;
 
-var song;
 
 function setup() {
-  song=loadSound('Assests/sound/bensound-ukulele.mp3')
+  var song1;
+
+  song1=loadSound('Assests/sound/bensound-ukulele.mp3')
+      song1.play();
+
   createCanvas(1250, 900);
   background(160, 115, 56);
 
@@ -353,7 +356,6 @@ mouseClicked = function() {
 //     song.stop();
 //     //background(255,0,0);
 //   } else {
-    song.play();
 //     //background(0,255,0);
 //   }
   
