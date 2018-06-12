@@ -341,7 +341,7 @@ var yPos = 200;
 var song;
 
 function setup() {
-  song=loadSound('assests/sound/bensound-ukulele.mp3)
+  song=loadSound('Assests/sound/bensound-ukulele.mp3)
   createCanvas(1250, 900);
   background(160, 115, 56);
 
