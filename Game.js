@@ -338,8 +338,10 @@ var currentScene = 1
 var xPos = 245;
 var yPos = 200;
 
+var song;
 
 function setup() {
+  song=loadSound('assests/sound/muzac.mp3)
   createCanvas(1250, 900);
   background(160, 115, 56);
 
@@ -347,6 +349,14 @@ function setup() {
 };
 
 mouseClicked = function() {
+  if ( song.isPlaying() ) { // .isPlaying() returns a boolean
+    song.stop();
+    //background(255,0,0);
+  } else {
+    song.play();
+    //background(0,255,0);
+  }
+  
   if (mouseX > 900 && mouseX < 900 + 200
     && mouseY > 600 && mouseY < 700) {
 
