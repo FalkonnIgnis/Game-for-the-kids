@@ -349,13 +349,13 @@ function setup() {
 };
 
 mouseClicked = function() {
-  if ( song.isPlaying() ) { // .isPlaying() returns a boolean
-    song.stop();
-    //background(255,0,0);
-  } else {
+//   if ( song.isPlaying() ) { // .isPlaying() returns a boolean
+//     song.stop();
+//     //background(255,0,0);
+//   } else {
     song.play();
-    //background(0,255,0);
-  }
+//     //background(0,255,0);
+//   }
   
   if (mouseX > 900 && mouseX < 900 + 200
     && mouseY > 600 && mouseY < 700) {
