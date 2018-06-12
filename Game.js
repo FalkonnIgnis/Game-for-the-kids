@@ -338,12 +338,17 @@ var currentScene = 1
 var xPos = 245;
 var yPos = 200;
 
+  
+var song2;
+
+function preload() {
+  song2 = loadSound('Assests/sound/bensound-ukulele.mp3');
+}  
 
 function setup() {
-  var song1;
+ 
 
-  song1=loadSound('Assests/sound/bensound-ukulele.mp3')
-      song1.play();
+ song2.play();
 
   createCanvas(1250, 900);
   background(160, 115, 56);
