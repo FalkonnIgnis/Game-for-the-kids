@@ -344,8 +344,20 @@ var song2;
 function preload() {
   song2 = loadSound('Assests/sound/bensound-ukulele.mp3');
 }  
-
+var counter = 0;
 function setup() {
+  
+  var timer = select('#timer');
+  timer.html('0');
+  
+  function timeIt(){
+    counter++;
+    timer.html(counter);
+    
+  }
+  setInterval(timeIt,1000);
+  
+}
  
 
  song2.play();
