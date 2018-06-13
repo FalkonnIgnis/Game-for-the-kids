@@ -350,7 +350,7 @@ function setup() {
 
  song2.play();
 
-  createCanvas(1250, 900);
+  createCanvas(650, 600);
   background(160, 115, 56);
 
   theButton();
