@@ -6,11 +6,10 @@ var theButton = function() {
   text("Start!", 950, 650);
 };
 var theButton2 = function() {
-  fill(255, 250, 0);
-  rect(900, 600, 200, 100);
-  fill(0, 0, 0);
+  
+  
   textSize(25);
-  text("Main Menu", 950, 650);
+  text("Congratulations, you completed the maze!", 950, 650,5);
 };
 var theButton3 = function() {
   fill(255, 250, 0);
