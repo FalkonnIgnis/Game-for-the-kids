@@ -342,7 +342,8 @@ var yPos = 200;
 var song2;
 
 function preload() {
-  song2 = loadSound('Assests/sound/bensound-ukulele.mp3');
+  song2 = loadSound('432544__slowmountain__waistland.mp3');
+ 
 }  
 
 function setup() {
@@ -350,7 +351,7 @@ function setup() {
 
  song2.play();
 
-  createCanvas(1250, 950);
+  createCanvas(650, 600);
   background(160, 115, 56);
 
   theButton();
