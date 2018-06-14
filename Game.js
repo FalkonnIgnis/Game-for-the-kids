@@ -1,6 +1,6 @@
 var theButton = function() {
   fill(255, 250, 0);
-  rect(900, 600, 1200, 1100);
+  rect(900, 600, 200, 100);
   fill(0, 0, 0);
   textSize(25);
   text("Start!", 950, 650);
