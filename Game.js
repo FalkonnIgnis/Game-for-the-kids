@@ -337,7 +337,7 @@ var CollisionDetector = function() {
 }
 var currentScene = 1
 
-  var PLAYER_MOVE_SPEED = 4;
+  var PLAYER_MOVE_SPEED = 3;
 
 var xPos = 245;
 var yPos = 200;
