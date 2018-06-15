@@ -27,7 +27,8 @@ var Drawings = function() {
   ellipse(1220, 50, 200, 200);
   stroke(0, 0, 0);
   strokeWeight(1);
-  //frame/   rect(220, 220, 1, 400);
+  //frame
+  rect(220, 220, 1, 400);
   rect(220, 620, 200, 1);
   rect(255, 220, 165, 1);
   rect(220, 220, 10, 1);
@@ -355,7 +356,14 @@ function setup() {
  song2.play();
 
   createCanvas(1250, 950);
-  background(160, 115, 56);
+  background(0, 206, 255);
+  fill(0, 216, 0);
+  noStroke();
+  rect(0, 700, 1250, 200);
+  fill(255, 255, 0);
+  ellipse(1220, 50, 200, 200);
+  stroke(0, 0, 0);
+  strokeWeight(1);
 
   theButton();
 };
@@ -440,4 +448,4 @@ function draw() {
     fill(255, 0, 239);
     ellipse(xPos, yPos, 10, 10);
   }
-};
+}
