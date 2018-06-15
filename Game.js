@@ -96,12 +96,12 @@ var CollisionDetector = function() {
     yPos = 200;
   }
   if (xPos > 220 && xPos < 220 +350
-    && yPos > 620 && yPos < 620 + 3) {
+    && yPos > 620 && yPos < 620 + 5) {
     xPos = 240;
     yPos = 200;
   }
   if (xPos > 595 && xPos < 595 + 25
-    && yPos > 620 && yPos < 620 + 3) {
+    && yPos > 620 && yPos < 620 + 5) {
     xPos = 240;
     yPos = 200;
   }
