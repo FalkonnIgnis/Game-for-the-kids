@@ -329,6 +329,11 @@ var CollisionDetector = function() {
     currentScene = 2;
     theButton2();
   }
+  if (xPos > 445 && xPos < 450
+    && yPos > 595 && yPos < 620) {
+    xPos = 240;
+    yPos = 200;
+  }
 }
 var currentScene = 1
 
