@@ -341,7 +341,7 @@ var yPos = 200;
 var song2;
 
 function preload() {
-  song2 = loadSound('Assets/sound/bensound-ukulele.mp3');
+  song2 = loadSound('Assests/sound/bensound-ukulele.mp3');
  
 }  
 
